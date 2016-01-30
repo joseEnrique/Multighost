@@ -1,7 +1,7 @@
 
 from Classes.Process import Process
+from Classes.createProcesses import *
 
 
-
-a = Process(22709,22709,'ESTABLECIDA')
-print(a)
+for i in filterByname("ChRome"):
+    print (i)
